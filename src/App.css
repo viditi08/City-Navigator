@@ -1,0 +1,79 @@
+/* App.css */
+
+.App-header {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5; /* Light gray background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Dark text color */
+}
+
+.location-inputs {
+  display: flex;
+  
+  align-items: center;
+}
+
+.label-input {
+  display: flex;
+  align-items: center;
+  margin: 10px; /* Increased margin for spacing */
+}
+
+label {
+  font-size: 16px;
+  margin-right: 10px;
+  color: #555; /* Slightly darker text color */
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius
+  : 5px; /* Rounded corners */
+  outline: none; /* Remove default input outline */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+
+}
+
+input:focus {
+  border-color: #61dafb; /* Highlight border color on focus */
+}
+
+.center-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #61dafb; /* React blue color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.center-button:hover {
+  background-color: #4285f4; /* Darker blue color on hover */
+}
+
+/* Map styling (optional) */
+.MapContainer {
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Add more styling as needed */
